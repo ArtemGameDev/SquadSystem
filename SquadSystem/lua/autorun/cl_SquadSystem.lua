@@ -54,14 +54,6 @@ surface.CreateFont( "TheSquadFontRect2", {
 
 distSq = 4000^2
 
-concommand.Add("SquadAdminSet", function(ply)
-    local trEntity = ply:GetEyeTrace().Entity
-    local Distance = ply:EyePos():Distance(trEntity:GetPos())
-    if trEntity:IsPlayer() then
-        trEntity:SetNWEntity("SquadMemberAcceptance", "Yes")
-    end
-end)
-
 concommand.Add("SquadLeaderBecome", function(ply)
     ply:SetNWEntity("SquadLeader",ply)
     ply:SetNWEntity("SquadMember01",NULL)
