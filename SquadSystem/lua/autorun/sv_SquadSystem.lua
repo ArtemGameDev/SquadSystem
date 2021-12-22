@@ -1,7 +1,0 @@
-hook.Add("PlayerDeath", "SquadThink", function(ply)
-    ply:SetNWEntity("SquadMember01", NULL)
-    ply:SetNWEntity("SquadMember02", NULL)
-    ply:SetNWEntity("SquadMember03", NULL)
-    ply:SetNWEntity("SquadMember04", NULL)
-    ply:SetNWEntity("SquadLeader", NULL)
-end)
