@@ -7,7 +7,7 @@ surface.CreateFont( "TheSquadFont", {
     weight = 500,
     blursize = 0,
     scanlines = 0,
-    antialias = true,
+    antialias = true,        // Дарий, оно меня заебало)
     underline = false,
     italic = false,
     strikeout = false,
